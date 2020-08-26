@@ -37,6 +37,7 @@ https://dev.to/sarah_chima/var-let-and-const--whats-the-difference-69e
 
 Basically it boils down to the const always pointing to the same address in memory. You can change the value stored in that address but cannot change the address the const is pointing too.
 https://stackoverflow.com/questions/23436437/why-can-i-change-value-of-a-constant-in-javascript
+
 https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
 
 ### 10) es interview question
@@ -65,4 +66,18 @@ https://scotch.io/bar-talk/javascripts-three-dots-spread-vs-rest-operators543#to
 ### 17 Generator and itrater
 https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5
 
+java-script
+https://www.fullstacktutorials.com/interviews/javascript-coding-questions-answers-6.html
+
+https://www.fullstacktutorials.com/interviews/top-50-basic-javascript-interview-questions-and-answers-freshers-and-experienced-10.html
+
+https://www.fullstacktutorials.com/interviews/advanced-javascript-interview-questions-and-answers-for-experienced-12.html
+
+### 18) Why this keyword in not supported in arrow function 
+also read the facebook comment 
+https://medium.com/ph-devconnect/es6-arrow-function-is-simple-this-article-just-made-it-simpler-for-js-beginners-e5a944af7fc6
+
+
+#### need to learn
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
 

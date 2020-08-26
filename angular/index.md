@@ -82,3 +82,48 @@ https://medium.com/netscape/testing-with-the-angular-httpclient-api-648203820712
 
 #### 19) angular exprince interview question
 https://hackr.io/blog/angular-interview-questions
+
+
+#### 20 What is ViewEncapsulation?
+https://www.greycampus.com/blog/programming/top-30-interview-questions-and-answers-on-angular-5
+
+https://dzone.com/articles/what-is-viewencapsulation-in-angular
+
+#### 21) What is difference between angular6 vs angular 7 vs angular 8
+https://www.angularminds.com/blog/article/comparison-between-angular-6-vs-angular-7-vs-angular-8.html
+
+### 22) how to use ngModelChange event 
+https://stackblitz.com/edit/ngmodelchanges-example?file=app%2Fapp.component.html
+
+### 23) what is difference between change event and ngModelChange event
+https://www.c-sharpcorner.com/forums/difference-between-change-and-ngmodelchange-in-angular
+
+### 24 how to create custome pipe in angular 
+https://alligator.io/angular/custom-pipes-angular/
+### 24 b) what is difference between pure pipe and in-pure pipe
+https://stackoverflow.com/questions/39285550/what-is-impure-pipe-in-angular
+
+https://angular.io/guide/pipes#pure-and-impure-pipes
+### 25) how to create custom directive 
+https://alligator.io/angular/building-custom-directives-angular/
+
+### 26) lots of example of angular 
+https://alligator.io/angular
+
+### 27) Lots of angular interview questions
+https://www.bestinterviewquestion.com/angular-6-interview-questions
+
+#### 28 what is async pipe 
+https://codecraft.tv/courses/angular/pipes/async-pipe/
+
+1) To Know the Generated folder stracture of the Angular with purpose of all file 
+https://v6.angular.io/guide/quickstart#the-src-folder
+
+2) To know the boot-process of angular
+https://medium.com/@coderonfleek/understanding-the-angular-boot-process-9a338b06248c
+
+3) What is purpose of enableProdMode in main.ts 
+https://angular.io/api/core/enableProdMode#description
+
+4) What is difference between platformBrowserDynamic or BrowserModule
+https://html.developreference.com/article/15145797/What's+the+difference+between+BrowserModule+and+platformBrowserDynamic%3F

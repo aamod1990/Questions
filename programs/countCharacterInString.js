@@ -7,6 +7,7 @@ const calculateString = (str)=>{
             for(let i=0;i<str.length;i++){
                 updatedString[str[i]] = true;       
             }
+            console.log("updatedStringupdatedStringupdatedString",updatedString);
             for(let j=0;j<str.length;j++){
                 if(updatedString[str[j]]){
                     count[str[j]] = 1;
@@ -27,3 +28,17 @@ calculateString("asdasdasdaggadf").then((result)=>{
 }).catch((error)=>{
     console.log(error);
 })
+
+// const calculateString1 = (str)=>{
+//     let count = {};
+//     for(let i=0;i<str.length;i++){
+//         if(count[str[i]]){
+//             count[str[i]] = count[str[i]]+1;
+//         }else{
+//             count[str[i]] = 1;
+//         }
+//     }
+//     return count;
+// }
+//const result  = calculateString1("asdasdasdaggadf")
+//console.log("resultresult",result);

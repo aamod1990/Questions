@@ -1,0 +1,2 @@
+Intent :- Add all your question as related chat bot 
+followUp-Intentations :  Get responce of bot question  like :- bot ask-- tell me your name 

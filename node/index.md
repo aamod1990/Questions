@@ -34,3 +34,7 @@ https://github.com/MaximAbramchuck/awesome-interview-questions/blob/master/READM
 https://timonweb.com/posts/how-to-enable-es6-imports-in-nodejs/
 ### 10) full stack URl
 https://www.fullstacktutorials.com/interviews/node-js-interview-questions-29.html
+### 11) mongose with node aritecture
+
+#### 12 ) Node js Aritecture
+https://www.journaldev.com/7462/node-js-architecture-single-threaded-event-loop
