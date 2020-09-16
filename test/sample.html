@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p class="btn">this is this demo</p>
+
+    <script>
+        const counter = {
+            count: 0,
+            incrementCounter: function () {
+                console.log("Value of this", this);
+                this.count++;
+            }
+        }
+
+        document.querySelector('.btn').addEventListener('click', counter.incrementCounter);
+    </script>
+
+</body>
+
+</html>
