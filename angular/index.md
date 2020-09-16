@@ -127,3 +127,6 @@ https://angular.io/api/core/enableProdMode#description
 
 4) What is difference between platformBrowserDynamic or BrowserModule
 https://html.developreference.com/article/15145797/What's+the+difference+between+BrowserModule+and+platformBrowserDynamic%3F
+
+### 29 ) How to make graphQL query call from angulr 
+https://www.telerik.com/blogs/graphql-angular-how-to-make-a-graphql-query
