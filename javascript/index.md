@@ -81,3 +81,6 @@ https://medium.com/ph-devconnect/es6-arrow-function-is-simple-this-article-just-
 #### need to learn
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
 
+### 19) Call bind and apply
+https://blog.bitsrc.io/understanding-call-bind-and-apply-methods-in-javascript-33dbf3217be#:~:text=The%20call%2C%20bind%20and%20apply,and%20calls%20the%20function%20immediately.
+
