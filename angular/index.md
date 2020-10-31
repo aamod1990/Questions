@@ -130,3 +130,17 @@ https://html.developreference.com/article/15145797/What's+the+difference+between
 
 ### 29 ) How to make graphQL query call from angulr 
 https://www.telerik.com/blogs/graphql-angular-how-to-make-a-graphql-query
+
+### 30 ) cookies in angular 
+https://itnext.io/angular-8-how-to-use-cookies-14ab3f2e93fc
+
+### 31) How to prevent angular applicaion
+https://www.dotnettricks.com/learn/angular/tips-to-secure-your-angular-applications
+
+### 32) How to create own angular library 
+https://www.youtube.com/watch?v=l3wjN4datGs
+#### 32 a) best 
+https://www.youtube.com/watch?v=eZDx2G0E-dQ
+
+### 33) Progressive Web Application (PWA)
+https://www.youtube.com/watch?v=l1VvA1sGNlk

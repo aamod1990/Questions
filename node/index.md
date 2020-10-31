@@ -38,3 +38,6 @@ https://www.fullstacktutorials.com/interviews/node-js-interview-questions-29.htm
 
 #### 12 ) Node js Aritecture
 https://www.journaldev.com/7462/node-js-architecture-single-threaded-event-loop
+
+### 13) push notification using service worker
+https://www.youtube.com/watch?v=HlYFW2zaYQM
