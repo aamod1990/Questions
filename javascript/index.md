@@ -84,3 +84,10 @@ https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-cl
 ### 19) Call bind and apply
 https://blog.bitsrc.io/understanding-call-bind-and-apply-methods-in-javascript-33dbf3217be#:~:text=The%20call%2C%20bind%20and%20apply,and%20calls%20the%20function%20immediately.
 
+### 20) ES6 and --- ES9
+https://www.greycampus.com/blog/programming/java-script-versions
+
+### 21) differentiate between deep and shallow copies in JavaScript
+https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/#:~:text=A%20deep%20copy%20means%20that,into%20how%20JavaScript%20stores%20values.
+
+https://medium.com/@manjuladube/understanding-deep-and-shallow-copy-in-javascript-13438bad941c

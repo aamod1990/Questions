@@ -1,0 +1,59 @@
+https://www.geeksforgeeks.org/closure-in-javascript/
+
+why closure
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36#:~:text=In%20JavaScript%2C%20closures%20are%20the,through%20the%20object's%20privileged%20methods.
+
+nested and closer 
+https://stackoverflow.com/questions/47195303/can-anyone-explain-the-difference-between-closure-and-nested-functions#:~:text=One%20function%20written%20inside%20another%20function%20is%20called%20a%20nested%20function.&text=Every%20function%20so%20created%20has,function%20has%20completed%20is%20closure.
+
+
+
+Q1) What is a Closure in JavaScript?
+Ans:- Closure is feature in javascript. Where inner function can access the outer function variable
+closer have access
+1) closer it has access to own variable. which is define within curly bracess
+2) it has to outer function variable 
+3) it has access the globel variable 
+
+Why to use closer :-
+------------------
+closures are commonly used to give objects data privacy. Data privacy is an essential property to make any type of software
+And here In JavaScript.  closures are the primary mechanism used to enable data privacy
+
+Example 1:-
+ function collage(c_free){
+  function collage_hostal(h_free){
+      return c_free + h_free;
+  }
+  function collage_sports(s_free){
+    return c_free + s_free;
+  }
+  function collage_library(l_free){
+    return c_free + l_free;
+  }
+  return {
+    collage_hostal:collage_hostal,
+    collage_sports:collage_sports,
+    collage_library:collage_library
+  }
+}
+const a = collage(100);
+
+console.log(a.collage_hostal(50));
+console.log(a.collage_sports(40));
+console.log(a.collage_sports(30));
+
+output :
+150
+140
+130
+
+Example 2: It creates a unique scope for each iteration, storing each unique value of the variable within it's scope.
+
+for(var i=0;i<5;i++){
+  (function(x){
+    setTimeout(function(){
+      console.log(x);
+    },1000)
+  })(i)
+}
