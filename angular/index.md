@@ -29,6 +29,14 @@ ng serve --port 4401
 ```
 * ng init:
     ** create a new application in the current directory
+    Note : the ng init command is removed from the CLI 
+    you can use the command 
+    ng new current-directory --directory=./ --skip-install
+    This uses three arguments as:
+        1. current-directory whatever your project name will be or current location where terminal is open.
+        2. --directory=./ this what does the magic, it instructs angular-cli to use existing folder as project root.
+        3. --skip-install this one is totally optional, only prevents installation of all npm dependencies upfront.
+    https://stackoverflow.com/questions/41190144/angular-cli-for-existing-github-project
 * ng new:
     ** create a new directory and run ng init inside the new directory
 
@@ -142,5 +150,35 @@ https://www.youtube.com/watch?v=l3wjN4datGs
 #### 32 a) best 
 https://www.youtube.com/watch?v=eZDx2G0E-dQ
 
+https://www.youtube.com/watch?v=lvjt9rBHWjo  (with search and add yellow)
+
+
+` hwo to create libery https://angular.io/guide/creating-libraries`
+
+
+`ng new magic-strings --create-application=false` 
+##### by this command you will get only work space
+
+`ng g library magic-string --prefix=nk`
+`` That prefix add in seceletor``
+`add component in librar using command : ng g c counter --project demo-lib  ( where demo-lib is library name`  
+
 ### 33) Progressive Web Application (PWA)
 https://www.youtube.com/watch?v=l1VvA1sGNlk
+
+https://www.youtube.com/watch?v=othhfZ0mGjU
+
+#### 34) Promise vs observale
+https://www.youtube.com/watch?v=g8lCPmq6wQg
+
+#### 35) paramitrize route
+https://www.youtube.com/watch?v=E6ZZUT-yf0U
+### 36) resolver route gaurd 
+means if the details not available the he will reducret on route
+https://www.youtube.com/watch?v=9Yjbunxc2oA
+
+session management
+https://www.youtube.com/watch?v=XE4bZ5cZDO0
+
+#### 37) Angular Material stater kit
+https://v5.material.angular.io/guide/getting-started

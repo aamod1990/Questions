@@ -18,9 +18,12 @@ https://github.com/benawad/graphql-express-template/blob/4_basic_jwt_auth/index.
 ### 7) caching in graphql
 https://www.apollographql.com/docs/apollo-server/performance/caching/#gatsby-focus-wrapper
 
-#### 1) How to call one graphql server to another graphql server
+#### 8) How to call one graphql server to another graphql server
 https://blog.apollographql.com/4-simple-ways-to-call-a-graphql-api-a6807bcdb355
 https://www.npmjs.com/package/apollo-fetch/v/0.1.0
+
+### 9) advantage and disadvantage of graphql
+https://stablekernel.com/article/advantages-and-disadvantages-of-graphql/
 
 
 
