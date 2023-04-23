@@ -1,0 +1,147 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"description": "Node Socket - Backend REST Service",
+		"version": "2.0.0",
+		"title": "Node Socket - Backend REST Service",
+		"termsOfService": "",
+		"contact": {
+			"email": "ashishs@torum.com"
+		},
+		"license": {
+			"name": "Apache 2.0"
+		}
+	},
+	"host": "127.0.0.1:4001",
+	"basePath": "/api",
+	"tags": [
+		"Test"
+	],
+	"schemes": [
+		"http"
+	],
+	"paths": {
+		"/test/": {
+			"post": {
+				"tags": [
+					"Test"
+				],
+				"summary": "Test",
+				"description": "",
+				"operationId": "Test",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "body",
+						"name": "body",
+						"description": "",
+						"required": true,
+						"schema": {
+							"$ref": "#/definitions/test"
+						}
+					}
+				],
+				"responses": {
+					"500": {
+						"description": "Internal Server Error"
+					},
+					"200": {
+						"description": "Successful Operation"
+					}
+				}
+			},
+			"get": {
+				"tags": [
+					"Test"
+				],
+				"summary": "Get all Test",
+				"description": "",
+				"operationId": "getAllTest",
+				"consumes": [
+					"application/json"
+				],
+				"produces": [
+					"application/json"
+				],
+				"parameters": [
+					{
+						"in": "query",
+						"name": "page",
+						"type": "number"
+					},
+					{
+						"in": "query",
+						"name": "limit",
+						"type": "number"
+					},
+					{
+						"in": "query",
+						"name": "search",
+						"type": "string"
+					},
+					{
+						"in": "query",
+						"name": "sortBy",
+						"type": "string",
+						"enum": [
+							"desc",
+							"asc"
+						]
+					}
+				],
+				"responses": {
+					"500": {
+						"description": "Internal Server Error"
+					},
+					"200": {
+						"description": "Successful Operation"
+					}
+				},
+				"security": [
+					{
+						"bearerAuth": []
+					}
+				]
+			}
+		}
+	},
+	"securitySchemes ": {
+		"bearerAuth": {
+			"type": "http",
+			"scheme": "bearer",
+			"bearerFormat": "JWT"
+		}
+	},
+	"securityDefinitions": {
+		"bearerAuth": {
+			"type": "apiKey",
+			"name": "Authorization",
+			"in": "header"
+		}
+	},
+	"definitions": {
+		"test": {
+			"type": "object",
+			"required": [
+				"field1"
+			],
+			"properties": {
+				"field1": {
+					"type": "string"
+				},
+				"field2": {
+					"type": "string"
+				}
+			},
+			"example": {
+				"field1": "xyz",
+				"field2": "pqr"
+			}
+		}
+	}
+}
