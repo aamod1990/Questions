@@ -182,3 +182,6 @@ https://www.youtube.com/watch?v=XE4bZ5cZDO0
 
 #### 37) Angular Material stater kit
 https://v5.material.angular.io/guide/getting-started
+
+#### 38) Types of loading in angular 
+https://medium.com/@lifei.8886196/eager-loading-lazy-loading-and-pre-loading-in-angular-2-what-when-and-how-798bd107090c

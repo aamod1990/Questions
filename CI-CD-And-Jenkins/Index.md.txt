@@ -1,0 +1,2 @@
+what is CI CD pipeline and what is Jenkins 
+https://www.youtube.com/watch?v=N-Iv4KIOvKY&t=1310s
