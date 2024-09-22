@@ -10,6 +10,7 @@ Securing a Node.js application involves implementing various best practices and 
 
 3. **Limit Request Payload Size:**
    - Limit the size of incoming request payloads to prevent `denial-of-service (DoS)` attacks. This can be done using middleware like `body-parser` or directly in your web server configuration.
+`app.use(bodyParser.json({ limit: '100kb' })); app.use(bodyParser.urlencoded({ limit: '100kb', extended: true }));`
 
 4. **Use Environment Variables for Configurations:**
    - Store sensitive information, such as API keys, database credentials, and other configurations, in environment variables instead of hard-coding them in your source code.
